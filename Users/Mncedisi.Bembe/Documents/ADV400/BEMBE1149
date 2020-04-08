@@ -1,0 +1,16 @@
+import java.util.Sscnner;
+public class BEMBE1149{
+	public static void main(String [] args){
+		System.out.println("Enter the first integer");
+		Scanner keyb = new Scanner(System.in);
+		int number1 = keyb.nextInt();
+
+		System.out.println("Enter the second integer");
+                keyb = new Scanner(System.in);
+                int number2 = keyb.nextInt();
+
+		System.out.println("The product of the number entered is "+(number1*number2));
+
+
+	}
+}
